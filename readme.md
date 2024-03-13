@@ -25,7 +25,7 @@ The application follows these steps to provide responses to your questions:
 
 ## Usage
 -----
-To use the MultiPDF Chat App, follow these steps:
+To use the PDF-Asker Chat App, follow these steps:
 
 1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
 
