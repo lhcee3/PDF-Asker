@@ -27,16 +27,20 @@ The application follows these steps to provide responses to your questions:
 -----
 To use the PDF-Asker Chat App, follow these steps:
 
-1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
+1. Ensure that you have installed the required dependencies using this command
+   
+  pip install -r requirements.txt
+  
+3.  Add the OpenAI API key and Hugging Face API Key to the `.env` file.
 
-2. Run the `main.py` file using the Streamlit CLI. Execute the following command:
+4. Run the `main.py` file using the Streamlit CLI. Execute the following command:
    ```
    streamlit run app.py
    ```
 
-3. The application will launch in your default web browser, displaying the user interface.
-4. Load multiple PDF documents into the app by following the provided instructions.
-5. Ask questions in natural language about the loaded PDFs using the chat interface.
+5. The application will launch in your default web browser, displaying the user interface.
+6. Load multiple PDF documents into the app by following the provided instructions.
+7. Ask questions in natural language about the loaded PDFs using the chat interface.
 
 ## License
 
